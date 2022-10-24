@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 68.75rem;
+    margin: auto;
+    padding: 1.25rem 1.25rem;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.box_number{
+    width: calc(100% / 10);
+    height: 3.125rem;
+    text-align: center;
+    line-height: 3.125rem;
+    background-color:black;
+    border: .0625rem solid red;
+    color: white;
+    
+}
