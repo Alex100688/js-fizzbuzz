@@ -24,12 +24,13 @@ h1{
 }
 
 .box_number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(100% / 10);
     height: 3.125rem;
-    text-align: center;
-    line-height: 3.125rem;
     background-color:#1389b2;
-    border: .0625rem solid red;
+    border: .3125rem solid #083b4c;
     color: white;
     
 }
